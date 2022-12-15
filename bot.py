@@ -11,7 +11,7 @@ logging.info("Starting...")
 try:
     apiid = config("APP_ID", cast=int)
     apihash = config("API_HASH")
-    bottoken = config("BOT_TOKEN")
+    session_string = config("SESSION_STRING")
     frm = config("FROM_CHANNEL", cast=lambda x: [int(_) for _ in x.split(" ")])
     tochnls = config("TO_CHANNEL", cast=lambda x: [int(_) for _ in x.split(" ")])
     datgbot = TelegramClient("bot", apiid, apihash).start(bot_token=bottoken)
