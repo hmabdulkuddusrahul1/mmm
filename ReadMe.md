@@ -11,7 +11,7 @@ This bot can send all new messages from channels, directly to another set of cha
 > `FROM_CHANNEL` - The IDs of the main channel from where posts have to be copied, split by space. eg: `-100xxxx -100yyyy -100abcd ...`   
 > `TO_CHANNEL` - The ID of the channel to which the posts are to be sent, split by space. eg: `-100xxxx -100yyyy -100abcd ...`   
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/xditya/ChannelAutoPost)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/hmabdulkuddusrahul1/mmm)
 
 * Chose a platform to deploy on:
 <details>
